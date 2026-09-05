@@ -1,3 +1,0 @@
-[build]
-  publish = "swachhlens"
-  command = "echo 'Static site — no build needed'"
