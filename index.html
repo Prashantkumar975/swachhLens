@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SwachhLens — A cleaner city starts with one report</title>
+<meta name="description" content="SwachhLens is a citizen-first waste-management platform for Indian municipalities. Report waste, dispatch the right crew, verify the cleanup — in one civic loop." />
+<link rel="stylesheet" href="css/landing.css?v=2" />
+<link rel="stylesheet" href="css/i18n.css?v=2" />
+<script>document.documentElement.classList.add('js');
+</script>
+</head>
+<body class="landing-page">
+<a class="lv-skip" href="#main">Skip to content</a>
+
+<!-- ================= NAVIGATION ================= -->
+<nav class="lv-nav" id="topnav" aria-label="Main navigation">
+  <div class="lv-wrap lv-nav__inner">
+    <a href="index.html" class="lv-logo">
+      <span class="lv-logo__mark" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="4" r="2"/><path d="M7 6v5"/><path d="M7 11l-2.5 4"/><path d="M7 11l2.5 4"/><path d="M7 8.5l4-2"/><circle cx="12" cy="5" r="0.7" fill="#fff" stroke="none"/><circle cx="13.2" cy="6.5" r="0.5" fill="#fff" stroke="none"/><path d="M14 9h6v11a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 14 20V9z"/><path d="M13.5 9h7"/><path d="M16 6v3"/></svg></span><span>SwachhLens</span>
+    </a>
+    <div class="lv-nav__cta">
+      <span data-lang-switch></span>
+      <button class="lv-btn lv-btn--ghost lv-btn--sm" data-theme-btn title="Toggle light / dark mode">🌙</button>
+      <a class="lv-btn lv-btn--ghost lv-btn--sm" href="citizen-login.html" data-i18n="nav.login">Log in</a>
+      <a class="lv-btn lv-btn--primary lv-btn--sm" href="citizen-register.html" data-i18n="nav.register">Register</a>
+      <button class="lv-burger" data-menu-btn aria-label="Open menu" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<div class="lv-mobile-menu" data-mobile-menu>
+  <a href="#system" data-menu-link data-i18n="nav.system">The system</a>
+  <a href="#roles" data-menu-link data-i18n="nav.roles">Choose your role</a>
+  <a href="citizen-login.html" data-menu-link data-i18n="nav.login">Log in</a>
+  <a href="citizen-register.html" data-menu-link data-i18n="nav.register">Register →</a>
+</div>
+
+<main id="main">
+
+<!-- ================= 01 — HERO ================= -->
+<section class="lv-hero" id="top">
+  <!-- Urban grid texture -->
+  <div class="lv-hero__grid" aria-hidden="true"></div>
+  <!-- Radial city-light glow -->
+  <div class="lv-hero__glow" aria-hidden="true"></div>
+  <!-- Floating civic icons -->
+  <div class="lv-hero__floats" aria-hidden="true">
+    <span class="lv-float-icon lv-float-icon--1"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--lv-green)" stroke-width="1.5" stroke-linecap="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></span>
+    <span class="lv-float-icon lv-float-icon--2"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--lv-green)" stroke-width="1.5" stroke-linecap="round"><path d="M12 2a7 7 0 0 1 7 7c0 5-7 13-7 13S5 14 5 9a7 7 0 0 1 7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></span>
+    <span class="lv-float-icon lv-float-icon--3"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--lv-green)" stroke-width="1.5" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg></span>
+    <span class="lv-float-icon lv-float-icon--4"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--lv-green)" stroke-width="1.5" stroke-linecap="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg></span>
+    <span class="lv-float-icon lv-float-icon--5"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--lv-green)" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+    <span class="lv-float-icon lv-float-icon--6"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--lv-green)" stroke-width="1.5" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+  </div>
+  <div class="lv-hero__gradient" aria-hidden="true"></div>
+  <div class="lv-wrap lv-hero__content">
+    <span class="lv-hero__eyebrow lv-hero-enter" style="--enter-d:.1s"><span class="dot"></span> <span data-i18n="hero.eyebrow">Nagar Nigam · Smart Sanitation</span></span>
+    <h1 class="lv-display lv-display--xl" id="hero-headline" data-hero-type data-hero-phrase="A cleaner city starts with one report." data-hero-accent="report."><span data-hero-type-text>A cleaner city starts with one </span><span class="lv-em" data-hero-type-accent>report.</span></h1>
+    <p class="lv-lead lv-hero-enter" style="--enter-d:2.1s" data-i18n="hero.lead">Spot an overflowing bin, an illegal dump, a missed pickup. Snap a photo, and SwachhLens routes it to the right cleaning crew — then verifies the job is actually done. One civic loop, from citizen to every street.</p>
+    <div class="lv-hero__actions lv-hero-enter" style="--enter-d:2.4s">
+      <a class="lv-btn lv-btn--primary lv-btn--lg" href="citizen-login.html"><span data-i18n="common.reportWaste">Report Waste</span> <span class="lv-arr">→</span></a>
+      <a class="lv-btn lv-btn--ghost lv-btn--lg" href="#system" data-i18n="common.explore">Explore SwachhLens</a>
+    </div>
+    <div class="lv-hero__meta lv-hero-enter" style="--enter-d:2.7s">
+      <div><b>2×</b><span data-i18n="hero.metaRoles">roles in one civic loop</span></div>
+      <div><b data-i18n="hero.metaAiLabel">AI-first</b><span data-i18n="hero.metaAi">dispatch + verification</span></div>
+      <div><b>100%</b><span data-i18n="hero.metaFree">free for every city</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Marquee -->
+<div class="lv-marquee" aria-hidden="true">
+  <div class="lv-marquee__track">
+    <span><span class="m-ico">🏙️</span> <span data-i18n="marq.overfilled">Overfilled bins</span></span>
+    <span><span class="m-ico">🚨</span> <span data-i18n="marq.illegal">Illegal dumping</span></span>
+    <span><span class="m-ico">🗓️</span> <span data-i18n="marq.scheduled">Scheduled pickups</span></span>
+    <span><span class="m-ico">🧹</span> <span data-i18n="marq.sweeping">Street sweeping</span></span>
+    <span><span class="m-ico">🧺</span> <span data-i18n="marq.door">Door-to-door collection</span></span>
+    <span><span class="m-ico">♻️</span> <span data-i18n="marq.verified">Verified cleanups</span></span>
+    <span><span class="m-ico">🏙️</span> <span data-i18n="marq.overfilled">Overfilled bins</span></span>
+    <span><span class="m-ico">🚨</span> <span data-i18n="marq.illegal">Illegal dumping</span></span>
+    <span><span class="m-ico">🗓️</span> <span data-i18n="marq.scheduled">Scheduled pickups</span></span>
+    <span><span class="m-ico">🧹</span> <span data-i18n="marq.sweeping">Street sweeping</span></span>
+    <span><span class="m-ico">🧺</span> <span data-i18n="marq.door">Door-to-door collection</span></span>
+    <span><span class="m-ico">♻️</span> <span data-i18n="marq.verified">Verified cleanups</span></span>
+  </div>
+</div>
+
+<!-- ================= 02 — THE PROBLEM (Freebuff savings-comparison style) ================= -->
+<section class="lv-section lv-section--alt" id="problem">
+  <div class="lv-wrap">
+    <div class="lv-sechead lv-sechead--center lv-reveal">
+      <span class="lv-kicker" data-i18n="prob.kicker">The problem</span>
+      <h2 class="lv-display lv-display--md" data-i18n="prob.title">Current waste management is <span class="lv-em">broken.</span></h2>
+      <p class="lv-lead" data-i18n="prob.lead">Most Indian cities still run waste collection on phone calls, paper logs, and guesswork. Citizens have no way to report, no way to track, and no proof anything was done.</p>
+    </div>
+    <div class="lv-compare lv-stagger">
+      <div class="lv-compare__col lv-compare__col--old" style="--d:.0s">
+        <div class="lv-compare__badge lv-compare__badge--old" data-i18n="cmp.before">Before</div>
+        <div class="lv-compare__item"><span class="lv-compare__ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--lv-red)" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span><div><b data-i18n="cmp.b1t">Phone-call reporting</b><small data-i18n="cmp.b1s">No photo proof, no tracking</small></div></div>
+        <div class="lv-compare__item"><span class="lv-compare__ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--lv-red)" stroke-width="2" stroke-linecap="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></span><div><b data-i18n="cmp.b2t">Paper-based logs</b><small data-i18n="cmp.b2s">Data is lost or never entered</small></div></div>
+        <div class="lv-compare__item"><span class="lv-compare__ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--lv-red)" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></span><div><b data-i18n="cmp.b3t">No verification</b><small data-i18n="cmp.b3s">Jobs marked done without proof</small></div></div>
+        <div class="lv-compare__item"><span class="lv-compare__ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--lv-red)" stroke-width="2" stroke-linecap="round"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg></span><div><b data-i18n="cmp.b4t">Zero visibility</b><small data-i18n="cmp.b4s">Citizens never learn the outcome</small></div></div>
+      </div>
+      <div class="lv-compare__vs">vs</div>
+      <div class="lv-compare__col lv-compare__col--new" style="--d:.12s">
+        <div class="lv-compare__badge lv-compare__badge--new" data-i18n="cmp.after">With SwachhLens</div>
+        <div class="lv-compare__item"><span class="lv-compare__ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--lv-green)" stroke-width="2" stroke-linecap="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></span><div><b data-i18n="cmp.a1t">One-photo reporting</b><small data-i18n="cmp.a1s">Snap, auto-tag, done in 10 seconds</small></div></div>
+        <div class="lv-compare__item"><span class="lv-compare__ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--lv-green)" stroke-width="2" stroke-linecap="round"><path d="M12 2a7 7 0 0 1 7 7c0 5-7 13-7 13S5 14 5 9a7 7 0 0 1 7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></span><div><b data-i18n="cmp.a2t">AI-powered dispatch</b><small data-i18n="cmp.a2s">Right crew matched automatically</small></div></div>
+        <div class="lv-compare__item"><span class="lv-compare__ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--lv-green)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span><div><b data-i18n="cmp.a3t">Verified cleanups</b><small data-i18n="cmp.a3s">Before/after proof, lead approval</small></div></div>
+        <div class="lv-compare__item"><span class="lv-compare__ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--lv-green)" stroke-width="2" stroke-linecap="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></span><div><b data-i18n="cmp.a4t">Full transparency</b><small data-i18n="cmp.a4s">Track every step — report to resolution</small></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 03 — THE SYSTEM ================= -->
+<section class="lv-section" id="system">
+  <div class="lv-wrap">
+    <div class="lv-sechead lv-sechead--center lv-reveal">
+      <span class="lv-kicker" data-i18n="sys.kicker">SwachhLens</span>
+      <h2 class="lv-display lv-display--md" data-i18n="sys.title">One verified loop,<br>end to end.</h2>
+      <p class="lv-lead" data-i18n="sys.lead">Every report enters a single pipeline — from the citizen's photo to a verified, logged cleanup. Nothing falls through because every step has an owner.</p>
+    </div>
+    <div class="lv-pipeline__rail lv-stagger">
+      <div class="lv-pipeline__connector" aria-hidden="true"></div>
+      <div class="lv-pipeline__step" style="--d:.0s"><div class="pv-ico">👤</div><b data-i18n="sys.s1">Citizen</b><small data-i18n="sys.s1s">Reports or books a pickup</small></div>
+      <div class="lv-pipeline__step" style="--d:.1s"><div class="pv-ico">🗑️</div><b data-i18n="sys.s2">Waste report</b><small data-i18n="sys.s2s">Photo + location + priority</small></div>
+      <div class="lv-pipeline__step" style="--d:.2s"><div class="pv-ico">🤖</div><b data-i18n="sys.s3">AI prioritisation</b><small data-i18n="sys.s3s">Right group + crew matched</small></div>
+      <div class="lv-pipeline__step" style="--d:.3s"><div class="pv-ico">🚚</div><b data-i18n="sys.s4">Municipal dispatch</b><small data-i18n="sys.s4s">Approved into an area group</small></div>
+      <div class="lv-pipeline__step" style="--d:.4s"><div class="pv-ico">🧹</div><b data-i18n="sys.s5">Cleaning crew</b><small data-i18n="sys.s5s">Clears and uploads proof</small></div>
+      <div class="lv-pipeline__step" style="--d:.5s"><div class="pv-ico">✅</div><b data-i18n="sys.s6">Verified clean</b><small data-i18n="sys.s6s">Resolved, city-wide visible</small></div>
+    </div>
+    <div class="lv-pipeline__note lv-reveal">
+      <span>🔒</span> <span data-i18n="sys.note">Dispatches are AI-suggested but <b>approved by a group lead</b> — and every finished job is checked before it's marked resolved.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 04 — LIVE STATS (Freebuff "1K+ Live now" pattern) ================= -->
+<section class="lv-section lv-section--alt">
+  <div class="lv-wrap">
+    <div class="lv-sechead lv-sechead--center lv-reveal">
+      <span class="lv-kicker" data-i18n="stats.kicker">Live impact</span>
+      <h2 class="lv-display lv-display--md" data-i18n="stats.title">Numbers that matter.</h2>
+      <p class="lv-lead" data-i18n="stats.lead">Real data from active wards across the city. Tap any stat to learn more.</p>
+    </div>
+    <div class="lv-stats lv-stagger" id="lvStats">
+      <button class="lv-stat" style="--d:.0s" data-stat-detail="Across 14 municipal wards, citizens have filed over 12,800 waste reports — each one with photo proof and GPS location. That's an average of 917 reports per ward." aria-expanded="false">
+        <span class="lv-stat__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--lv-green)" stroke-width="2" stroke-linecap="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></span>
+        <span class="lv-stat__no" data-count="12847" data-stat-key="reports">0</span>
+        <span class="lv-stat__label" data-i18n="stats.reports">Reports submitted</span>
+        <span class="lv-stat__sub" data-i18n="stats.reportsSub">across 14 wards</span>
+        <span class="lv-stat__detail" aria-hidden="true"></span>
+        <span class="lv-stat__tap-hint" data-i18n="stats.tapHint">Tap to learn more</span>
+      </button>
+      <button class="lv-stat" style="--d:.1s" data-stat-detail="11,203 of 12,847 reports have been verified clean — that's an 87% resolution rate. Each verified cleanup includes before/after photos and group-lead approval." aria-expanded="false">
+        <span class="lv-stat__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--lv-green)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
+        <span class="lv-stat__no" data-count="11203" data-stat-key="resolved">0</span>
+        <span class="lv-stat__label" data-i18n="stats.resolved">Verified cleanups</span>
+        <span class="lv-stat__sub" data-i18n="stats.resolvedSub">87% resolution rate</span>
+        <span class="lv-stat__detail" aria-hidden="true"></span>
+        <span class="lv-stat__tap-hint" data-i18n="stats.tapHint">Tap to learn more</span>
+      </button>
+      <button class="lv-stat" style="--d:.2s" data-stat-detail="340 crew members are active right now across all zones. The AI dispatch system assigns tasks based on proximity, workload, and waste type — and every job is verified before completion." aria-expanded="false">
+        <span class="lv-stat__icon lv-stat__icon--pulse"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--lv-green)" stroke-width="2" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span class="lv-stat__live-dot" aria-label="Live"></span></span>
+        <span class="lv-stat__no" data-count="340" data-stat-key="crew">0</span>
+        <span class="lv-stat__label" data-i18n="stats.crew">Active crew members</span>
+        <span class="lv-stat__sub" data-i18n="stats.crewSub">on duty right now</span>
+        <span class="lv-stat__detail" aria-hidden="true"></span>
+        <span class="lv-stat__tap-hint" data-i18n="stats.tapHint">Tap to learn more</span>
+      </button>
+      <button class="lv-stat" style="--d:.3s" data-stat-detail="From the moment a citizen snaps a photo to when a crew is dispatched — the average time is just 2.4 hours. AI prioritisation and zone routing make this possible." aria-expanded="false">
+        <span class="lv-stat__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--lv-green)" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+        <span class="lv-stat__no" data-stat-key="avgResponseHours">2.4<small>h</small></span>
+        <span class="lv-stat__label" data-i18n="stats.avgTime">Avg response time</span>
+        <span class="lv-stat__sub" data-i18n="stats.avgTimeSub">from report to dispatch</span>
+        <span class="lv-stat__detail" aria-hidden="true"></span>
+        <span class="lv-stat__tap-hint" data-i18n="stats.tapHint">Tap to learn more</span>
+      </button>
+    </div>
+    <div class="lv-stats__dots" id="statsDots" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+  </div>
+</section>
+
+<!-- ================= 05 — CHOOSE YOUR ROLE (Freebuff product showcase style) ================= -->
+<section class="lv-section" id="roles">
+  <div class="lv-wrap">
+    <div class="lv-sechead lv-sechead--center lv-reveal">
+      <span class="lv-kicker" data-i18n="roles.kicker">For you</span>
+      <h2 class="lv-display lv-display--md" data-i18n="roles.title">Two roles, one cleaner city.</h2>
+      <p class="lv-lead" data-i18n="roles.lead">Pick where you sit in the loop. Each role has its own dashboard, its own workflow, and its own proof trail.</p>
+    </div>
+    <div class="lv-products lv-stagger">
+      <!-- Citizen product card -->
+      <div class="lv-product" style="--d:.0s">
+        <div class="lv-product__accent" style="background:linear-gradient(135deg,var(--lv-green),var(--lv-green-dark))" aria-hidden="true"></div>
+        <div class="lv-product__head">
+          <span class="lv-badge" data-i18n="prod.new">New</span>
+          <span class="lv-product__role-tag" data-i18n="prod.forCitizens">For citizens</span>
+        </div>
+        <h3 class="lv-product__title" data-i18n="prod.citizenTitle">SwachhLens Citizen</h3>
+        <p class="lv-product__desc" data-i18n="prod.citizenDesc">Report waste in seconds with a photo, book a pickup, and watch your report move through the system — with real-time updates the whole way.</p>
+        <div class="lv-product__replaces">
+          <span class="lv-product__replaces-label" data-i18n="prod.replaces">Replaces</span>
+          <span class="lv-pill" data-i18n="prod.citRep1">Phone-call helplines</span>
+          <span class="lv-pill" data-i18n="prod.citRep2">Paper forms</span>
+          <span class="lv-pill" data-i18n="prod.citRep3">WhatsApp groups</span>
+        </div>
+        <div class="lv-product__preview">
+          <div class="lv-product__mockup">
+            <div class="lv-mockup-row"><span class="lv-mockup-icon" style="background:var(--lv-green-subtle)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--lv-green)" stroke-width="2" stroke-linecap="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></span><span data-i18n="prod.citMock1">Snap a photo — auto-tagged</span></div>
+            <div class="lv-mockup-row"><span class="lv-mockup-icon" style="background:rgba(99,102,241,.12)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--lv-purple)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></span><span data-i18n="prod.citMock2">Instant crew dispatch</span></div>
+            <div class="lv-mockup-row lv-mockup-row--done"><span class="lv-mockup-icon" style="background:var(--lv-green-subtle)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--lv-green)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span><span data-i18n="prod.citMock3">Verified clean ✓</span></div>
+          </div>
+        </div>
+        <a class="lv-btn lv-btn--primary lv-btn--lg" href="citizen-login.html#citizen" style="margin-top:28px;"><span data-i18n="common.reportWaste">Report Waste</span> <span class="lv-arr">→</span></a>
+      </div>
+
+      <!-- Employee product card -->
+      <div class="lv-product" style="--d:.12s">
+        <div class="lv-product__accent" style="background:linear-gradient(135deg,var(--lv-purple),var(--lv-purple-light))" aria-hidden="true"></div>
+        <div class="lv-product__head">
+          <span class="lv-badge" style="background:var(--lv-purple-subtle);color:var(--lv-purple);border-color:var(--lv-purple-border)" data-i18n="prod.new">New</span>
+          <span class="lv-product__role-tag lv-product__role-tag--purple" data-i18n="prod.forCrew">For crew</span>
+        </div>
+        <h3 class="lv-product__title" data-i18n="prod.empTitle">SwachhLens Employee</h3>
+        <p class="lv-product__desc" data-i18n="prod.empDesc">Your zone's tasks land in one queue. Clear pickups along your route, upload proof of work, and get each job verified by your group lead.</p>
+        <div class="lv-product__replaces">
+          <span class="lv-product__replaces-label" data-i18n="prod.replaces">Replaces</span>
+          <span class="lv-pill" data-i18n="prod.empRep1">Paper route sheets</span>
+          <span class="lv-pill" data-i18n="prod.empRep2">Verbal assignments</span>
+          <span class="lv-pill" data-i18n="prod.empRep3">Manual tracking</span>
+        </div>
+        <div class="lv-product__preview">
+          <div class="lv-product__mockup lv-product__mockup--purple">
+            <div class="lv-mockup-row"><span class="lv-mockup-icon" style="background:rgba(167,139,250,.12)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--lv-purple)" stroke-width="2" stroke-linecap="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></span><span data-i18n="prod.empMock1">Zone queue — 12 tasks</span></div>
+            <div class="lv-mockup-row"><span class="lv-mockup-icon" style="background:rgba(59,130,246,.12)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--lv-blue)" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M16.24 7.76l-2.12 6.36-6.36 2.12 2.12-6.36 6.36-2.12z"/></svg></span><span data-i18n="prod.empMock2">Optimised route — 5 stops</span></div>
+            <div class="lv-mockup-row lv-mockup-row--done"><span class="lv-mockup-icon" style="background:rgba(167,139,250,.12)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--lv-purple)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span><span data-i18n="prod.empMock3">Lead verified ✓</span></div>
+          </div>
+        </div>
+        <a class="lv-btn lv-btn--lg" href="citizen-login.html#employee" style="margin-top:28px;background:var(--lv-purple);border-color:var(--lv-purple);color:var(--lv-text-inverse);"><span data-i18n="prod.workZone">Work Your Zone</span> <span class="lv-arr">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 06 — REAL-WORLD IMPACT ================= -->
+<section class="lv-section lv-section--alt" aria-labelledby="impactTitle">
+  <div class="lv-wrap">
+    <div class="lv-sechead lv-sechead--center lv-reveal">
+      <span class="lv-kicker" data-i18n="imp.kicker">Real-world impact</span>
+      <h2 class="lv-display lv-display--md" id="impactTitle" data-i18n="imp.title">Real people. <span class="lv-em">Real impact.</span></h2>
+      <p class="lv-lead" data-i18n="imp.lead">See how SwachhLens turns citizen reports into measurable action.</p>
+    </div>
+    <div class="lv-quotes lv-stagger">
+      <figure class="lv-quote" style="--d:.0s"><blockquote data-i18n="imp.q1">I reported a spill at the bus stop with one photo. Two days later it was gone and marked verified — I could actually see the result.</blockquote><footer><span class="q-av" style="background:linear-gradient(135deg,var(--lv-green-dark),var(--lv-green));">A</span><div><b data-i18n="imp.q1name">Aarav Sharma</b><small data-i18n="imp.q1meta">Citizen · North Zone</small></div></footer></figure>
+      <figure class="lv-quote" style="--d:.12s"><blockquote data-i18n="imp.q2">My daily queue used to be guesswork. Now the AI lines up my routes and my lead verifies each one — my work finally has proof.</blockquote><footer><span class="q-av" style="background:linear-gradient(135deg,var(--lv-purple),var(--lv-purple-light));">J</span><div><b data-i18n="imp.q2name">John Driver</b><small data-i18n="imp.q2meta">Cleaning Crew · East Zone</small></div></footer></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 07 — FAQ (Freebuff accordion style) ================= -->
+<section class="lv-section" id="faq">
+  <div class="lv-wrap">
+    <div class="lv-sechead lv-sechead--center lv-reveal">
+      <span class="lv-kicker" data-i18n="faq.kicker">FAQs</span>
+      <h2 class="lv-display lv-display--md" data-i18n="faq.title">Questions & answers.</h2>
+    </div>
+    <div class="lv-faq lv-stagger">
+      <details class="lv-faq__item" style="--d:.0s">
+        <summary class="lv-faq__q" data-i18n="faq.faq1Q">Is SwachhLens really free for citizens?</summary>
+        <div class="lv-faq__a"><p data-i18n="faq.faq1A">Yes. SwachhLens is 100% free for citizens, crew members, and municipalities. There are no hidden fees, no subscriptions, and no paywalls. Report as much waste as you want.</p></div>
+      </details>
+      <details class="lv-faq__item" style="--d:.06s">
+        <summary class="lv-faq__q" data-i18n="faq.faq2Q">How does the AI dispatch work?</summary>
+        <div class="lv-faq__a"><p data-i18n="faq.faq2A">When a citizen submits a photo report, the AI analyses the waste type, location, and urgency — then suggests the best crew and zone. A group lead reviews and approves before any dispatch happens.</p></div>
+      </details>
+      <details class="lv-faq__item" style="--d:.12s">
+        <summary class="lv-faq__q" data-i18n="faq.faq3Q">Can I track my report after submitting?</summary>
+        <div class="lv-faq__a"><p data-i18n="faq.faq3A">Absolutely. Every report goes through a visible pipeline: submitted → AI prioritised → dispatched → in progress → verified clean. You get notified at every step.</p></div>
+      </details>
+      <details class="lv-faq__item" style="--d:.18s">
+        <summary class="lv-faq__q" data-i18n="faq.faq4Q">What proof do crews upload?</summary>
+        <div class="lv-faq__a"><p data-i18n="faq.faq4A">Crews upload before-and-after photos of each cleanup. These are stored permanently and visible to citizens, group leads, and municipal administrators.</p></div>
+      </details>
+      <details class="lv-faq__item" style="--d:.24s">
+        <summary class="lv-faq__q" data-i18n="faq.faq5Q">Which cities can use SwachhLens?</summary>
+        <div class="lv-faq__a"><p data-i18n="faq.faq5A">SwachhLens is built for Indian Nagar Nigam municipalities. It's currently live in pilot wards and expanding. Any city with a municipal sanitation department can get started.</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 08 — FINAL CTA ================= -->
+<section class="lv-section lv-section--cta" aria-labelledby="ctaTitle">
+  <div class="lv-wrap">
+    <div class="lv-cta__inner lv-reveal">
+      <span class="lv-kicker" data-i18n="cta.kicker">Start today</span>
+      <h2 class="lv-display lv-display--md" id="ctaTitle" data-i18n="cta.title">Make every report count.</h2>
+      <p class="lv-lead" data-i18n="cta.lead">Choose the seat you belong in and step into the loop. Free for citizens, crews and municipalities.</p>
+      <div class="lv-hero__actions" style="justify-content:center;margin-top:24px;">
+        <a class="lv-btn lv-btn--primary lv-btn--lg" href="citizen-login.html"><span data-i18n="common.reportWaste">Report Waste</span> <span class="lv-arr">→</span></a>
+        <a class="lv-btn lv-btn--ghost lv-btn--lg" href="citizen-register.html" data-i18n="nav.register">Register</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="lv-footer">
+  <div class="lv-wrap">
+    <div class="lv-footer__grid">
+      <div class="lv-footer__brand">
+        <a href="index.html" class="lv-logo" style="color:#fff;"><span class="lv-logo__mark"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="4" r="2"/><path d="M7 6v5"/><path d="M7 11l-2.5 4"/><path d="M7 11l2.5 4"/><path d="M7 8.5l4-2"/><circle cx="12" cy="5" r="0.7" fill="#fff" stroke="none"/><circle cx="13.2" cy="6.5" r="0.5" fill="#fff" stroke="none"/><path d="M14 9h6v11a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 14 20V9z"/><path d="M13.5 9h7"/><path d="M16 6v3"/></svg></span> SwachhLens</a>
+        <p data-i18n="foot.desc">One civic loop for Indian cities: citizens report, crews clear, group leads verify — and no bin stays full.</p>
+        <div class="lv-footer__badges"><span data-i18n="foot.badge1">🇮🇳 Built for Nagar Nigam</span><span data-i18n="foot.badge2">♻️ Municipal sanitation</span></div>
+      </div>
+      <div>
+        <h4 data-i18n="foot.platform">Platform</h4>
+        <a href="#system" data-i18n="foot.how">How it works</a>
+      </div>
+      <div>
+        <h4 data-i18n="foot.foryou">For you</h4>
+        <a href="citizen-login.html#citizen" data-i18n="foot.citizens">For Citizens</a>
+        <a href="citizen-login.html#employee" data-i18n="foot.employees">For Employees</a>
+      </div>
+      <div>
+        <h4 data-i18n="foot.getstarted">Get started</h4>
+        <a href="citizen-login.html" data-i18n="nav.login">Log in</a>
+        <a href="citizen-login.html" data-i18n="common.reportWaste">Report Waste</a>
+        <a href="#top" data-i18n="foot.top">Back to top ↑</a>
+      </div>
+    </div>
+    <div class="lv-footer__bottom">
+      <span data-i18n="foot.copyright">© 2026 SwachhLens · Built with 💚 for cleaner Indian cities.</span>
+      <span>support@swachhlens.app</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/lang.js?v=2"></script>
+<script src="js/config.js?v=2"></script>
+<script src="js/api.js?v=2"></script>
+<script src="js/ui.js?v=2"></script>
+<script src="js/auth.js?v=2"></script>
+<script src="js/state.js?v=2"></script>
+<script src="js/landing.js?v=2"></script>
+<script src="js/hero-type.js?v=2"></script>
+</body>
+</html>

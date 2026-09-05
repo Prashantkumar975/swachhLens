@@ -1,0 +1,7 @@
+# SwachLens backend — minimal production dependencies
+# Only packages actually imported by backend/app/*.py
+fastapi>=0.115
+uvicorn>=0.32
+python-dotenv>=1.0
+psycopg2-binary>=2.9.9
+python-multipart>=0.0.32

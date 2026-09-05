@@ -1,0 +1,13 @@
+# SwachhLens AI — Training Dependencies
+# Install: pip install -r requirements.txt
+
+# Core
+torch>=2.0.0
+torchvision>=0.15.0
+Pillow>=10.0.0
+
+# YOLO training
+ultralytics>=8.0.0
+
+# Data preparation
+opencv-python>=4.8.0

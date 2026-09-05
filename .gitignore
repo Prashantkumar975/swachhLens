@@ -1,0 +1,38 @@
+__pycache__/
+*.pyc
+
+.venv/
+venv/
+env/
+
+.env
+.env.*
+
+.vscode/
+.idea/
+
+*.log
+
+.DS_Store
+Thumbs.db
+
+models/
+checkpoints/
+runs/
+
+*.tmp
+backend/data/
+.freebuff/
+# Training data
+raw_images/
+swachhlens/ai/raw_images/
+data/
+
+# Backend venv and data
+swachhlens/backend/.venv/
+swachhlens/backend/data/
+swachhlens/backend/app/*.onnx
+swachhlens/backend/app/*.pth
+
+# Freebuff
+.freebuff/

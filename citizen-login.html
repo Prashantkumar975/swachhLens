@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sign in — SwachhLens</title>
+<meta name="description" content="Sign in to SwachhLens as a Citizen or a Cleaning-crew Employee. Report waste, work your zone, and watch cleanups get verified." />
+<link rel="stylesheet" href="css/landing.css?v=2" />
+<link rel="stylesheet" href="css/i18n.css?v=2" />
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body class="auth-page" data-auth-mode="login">
+<a class="lv-skip" href="#authMain" data-i18n="nav.skip">Skip to content</a>
+
+<!-- ================= NAVIGATION ================= -->
+<nav class="lv-nav is-scrolled" aria-label="Main navigation">
+  <div class="lv-wrap lv-nav__inner">
+    <a href="index.html" class="lv-logo">
+      <span class="lv-logo__mark" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"> <!-- Person --> <circle cx="7" cy="4" r="2"/> <path d="M7 6v5"/> <path d="M7 11l-2.5 4"/> <path d="M7 11l2.5 4"/> <path d="M7 8.5l4-2"/> <!-- Garbage particles --> <circle cx="12" cy="5" r="0.7" fill="#fff" stroke="none"/> <circle cx="13.2" cy="6.5" r="0.5" fill="#fff" stroke="none"/> <!-- Dustbin --> <path d="M14 9h6v11a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 14 20V9z"/> <path d="M13.5 9h7"/> <path d="M16 6v3"/> </svg> </span><span>SwachhLens</span>
+    </a>
+    <div class="lv-nav__cta">
+      <span data-lang-switch></span>
+      <button class="lv-btn lv-btn--ghost lv-btn--sm" data-theme-btn title="Toggle light / dark mode" style="padding:10px 14px;">🌙</button>
+      <a class="lv-btn lv-btn--ghost lv-btn--sm" href="agency-login.html" data-i18n="nav.adminLogin">Admin Login</a>
+      <a class="lv-btn lv-btn--ghost lv-btn--sm" href="index.html" data-i18n="nav.backHome">← Back to home</a>
+    </div>
+  </div>
+</nav>
+
+<main class="lv-auth" id="authMain">
+  <div class="lv-auth__wrap">
+    <div class="lv-auth__head">
+      <span class="lv-kicker" data-i18n="auth.kicker">One platform · Citizen access</span>
+      <h1 class="lv-display lv-display--md"><span data-i18n="auth.title1">Welcome back.</span> <span class="lv-em" data-i18n="auth.title1Em">Sign in as a Citizen.</span></h1>
+      <p class="lv-lead" data-i18n="auth.lead1">Your dashboard will adapt to your workflow and guide you through sign-in.</p>
+    </div>
+
+    <!-- ================= CITIZEN PANEL ================= -->
+    <section class="lv-auth__panel" data-role-panel="USER" aria-labelledby="citizenTitle">
+      <div class="lv-auth__side lv-auth__side--citizen">
+        <span class="side-role" data-i18n="auth.roleCit">Citizen</span>
+        <h2 id="citizenTitle" data-i18n="auth.citTitle">See waste. Report it.<br>Watch it disappear.</h2>
+        <p data-i18n="auth.citBody">Your reports and pickups get a real owner — the crew that clears them and the verification that proves it.</p>
+        <ul class="side-list">
+          <li><span>📸</span> <span data-i18n="auth.citList1">Report garbage with a photo and a pin</span></li>
+          <li><span>🗓️</span> <span data-i18n="auth.citList2Login">Book a pickup on your schedule</span></li>
+          <li><span>🔄</span> <span data-i18n="auth.citList3">Track Pending → In Progress → Verification → Resolved</span></li>
+          <li><span>✅</span> <span data-i18n="auth.citList4">Confirm cleanups and earn community points</span></li>
+        </ul>
+        <div class="side-meta" data-i18n="auth.citMetaLogin">Signing in routes you to the Citizen dashboard.</div>
+      </div>
+      <div class="lv-auth__form">
+        <h3 data-i18n="auth.citAccess">Citizen access</h3>
+        <p data-i18n="auth.citFormLeadLogin">Log in to report, book and track.</p>
+        <form data-form novalidate>
+          <div class="lv-field">
+            <label for="citizenEmail" data-i18n="auth.email">Email</label>
+            <input data-email id="citizenEmail" type="email" placeholder="you@example.com" data-i18n-ph="auth.phEmail" autocomplete="email" />
+          </div>
+          <div class="lv-field">
+            <label for="citizenPass" data-i18n="auth.pass">Password</label>
+            <input data-pass id="citizenPass" type="password" placeholder="••••••••" autocomplete="current-password" />
+          </div>
+          <div class="lv-auth__err" data-err role="alert"></div>
+          <button class="lv-auth__submit lv-auth__submit--citizen" type="submit" data-submit>
+            <span class="lv-spinner"></span><span data-submit-label data-i18n="auth.logCit">Log in as Citizen</span><span class="lv-arr">→</span>
+          </button>
+        </form>
+        <p class="lv-auth__switch"><span data-i18n="auth.switchRegQ">Don't have an account?</span> <a href="citizen-register.html" data-role-link="register" data-i18n="auth.switchRegLink">Register</a></p>
+
+      </div>
+    </section>
+
+    <!-- ================= EMPLOYEE PANEL ================= -->
+    <section class="lv-auth__panel" data-role-panel="EMPLOYEE" aria-labelledby="employeeTitle" hidden>
+      <div class="lv-auth__side lv-auth__side--employee">
+        <span class="side-role">Employee · Cleaning Crew</span>
+        <h2 id="employeeTitle">Employees log in with their Agency ID</h2>
+        <p>Employees are registered by admins only. Use your agency-issued Employee ID and password to sign in.</p>
+        <ul class="side-list">
+          <li><span>🔑</span> <span>Log in with your Employee ID (e.g. EMP-001)</span></li>
+          <li><span>📋</span> <span>View and accept tasks assigned to you</span></li>
+          <li><span>✅</span> <span>Accept or reject each task</span></li>
+        </ul>
+        <div class="side-meta">Only admins can create employee accounts.</div>
+      </div>
+      <div class="lv-auth__form">
+        <h3>Employee access</h3>
+        <p>Sign in with your agency-issued Employee ID.</p>
+        <div style="text-align:center;padding:2rem 0;">
+          <a href="agency-login.html" class="lv-btn lv-btn--primary" style="display:inline-block;padding:.7rem 1.5rem;background:#8b5cf6;color:#fff;border-radius:8px;text-decoration:none;font-weight:600;">→ Go to Employee Login</a>
+          <p style="margin-top:1rem;font-size:.82rem;opacity:.6;">You'll sign in with your Employee ID + password</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script src="js/lang.js?v=2"></script>
+<script src="js/config.js?v=2"></script>
+<script src="js/api.js?v=2"></script>
+<script src="js/ui.js?v=2"></script>
+<script src="js/auth.js?v=2"></script>
+<script src="js/login.js?v=2"></script>
+</body>
+</html>
